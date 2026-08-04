@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int lengthOfLastWord(string m) {
+    int lengthOfLastWord(string S) {
         int n = s.length();
         
         int i = n - 1;
