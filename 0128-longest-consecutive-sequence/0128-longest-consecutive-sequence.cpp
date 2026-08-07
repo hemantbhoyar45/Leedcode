@@ -22,7 +22,7 @@ public:
                 cnt = 1;
             }
           maxcnt  = max(maxcnt , cnt);
-           
+          first = x + 1;
         }
         return maxcnt == INT_MIN ? 0: maxcnt;
     }
