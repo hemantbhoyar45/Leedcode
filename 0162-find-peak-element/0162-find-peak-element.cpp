@@ -14,6 +14,6 @@ public:
             }
         }
 
-        return e;
+        return s;
     }
 };
