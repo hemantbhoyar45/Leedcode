@@ -3,7 +3,7 @@
 //     int majorityElement(vector<int>& nums) {
 //         MOORE-BOYER ALGORITHMS
 //         int n = nums.size();
-//         int  freq = 0;
+//         int freq = 0;
 //         int ans = 0;
        
 
