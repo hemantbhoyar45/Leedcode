@@ -13,9 +13,8 @@ public:
 
         while (i < n && j < m) {
             if (nums1[i] == nums2[j]) {
-                if(ans.empty() || ans.back() != nums1[i]) {
-                    ans.push_back(nums1[i]);
-                }
+                if(ans.empty() || ans.back() != nums1[i])
+                ans.push_back(nums1[i]);
                 i++;
                 j++;
             } 
